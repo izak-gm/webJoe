@@ -1,11 +1,11 @@
 body,
 html {
-  width: 100%;
+  width: auto;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 .contact-container{
-  width: 100%;
+  width: auto;
   height: 120vh;
   margin: .5rem 1rem;
   display: flex;
@@ -38,7 +38,7 @@ html {
   padding: 1rem;
 }
 .input-box{
-  width: 100%;
+  width: auto;
   display: flex;
   border: 2px solid azure;
 }
@@ -73,7 +73,7 @@ html {
   font-size: 15px;
 }
 .discloser{
-  width: 100%;
+  width: auto;
   padding: 2%;
 }
 .discloser input{
@@ -212,7 +212,7 @@ html {
 }
 @media (max-width:1024px){
   .contact-container{
-    width: 100%;
+    width: auto;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -220,16 +220,16 @@ html {
   }
   .contact-area{
     align-items: center;
-    width: 100%;
+    width: auto;
   }
   .contact-section{
     background-color:rgb(75, 72, 72) ;
     height: 135vh;
-    width: 100%;
+    width: auto;
 
   }
   .contact-right-sec{
-    width: 100%;
+    width: auto;
     height: 100%;
 
   }
@@ -238,12 +238,12 @@ html {
     width: 400px;
   }
   .header-form{
-    width: 100%;
+    width: auto;
     width: 300px;
   }
   .input-box input{
     height: 2.5rem;
-    width: 100%;
+    width: auto;
     background-color: rgb(75, 72, 72);
     color: cornsilk;
     border:transparent;
@@ -255,14 +255,14 @@ html {
 
 .input-box textarea{
   border: none;
-  width: 100%;
+  width: auto;
   height: 40vh;
   background-color: rgb(75, 72, 72);
   color: cornsilk;
   font-size: 15px;
 }
   .discloser{
-    width: 100%;
+    width: auto;
     display: flexbox;
     justify-content: center;
     text-align: left;
@@ -290,7 +290,7 @@ html {
 
   }
   .contact-right-sec{
-    width: 100%;
+    width: auto;
     height: 100%;
 
   }

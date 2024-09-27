@@ -15,13 +15,14 @@
 }
 body,html{
     overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 .hero-section{
     padding: 0%;
     margin: 0%;
 }
 .about-container{
-    width: 100%;
     margin: 10px;    
     padding: 5%;
     height: 80vh;
@@ -31,12 +32,11 @@ body,html{
     background-size: cover;
 }
 .about-area{
-    width: 100%;
+    width: auto;
 }
 .about-message{
     display: flexbox;
     justify-content: center;
-    width: 100%;
     align-items: center;
     margin: 2%;
     place-items: baseline;
@@ -51,7 +51,7 @@ body,html{
     color: var(--text-color);
 }
 .about--section{
-    max-width: 700px;
+    max-width: auto;
 }
 .about--section p{
     font-size:20px ;
@@ -59,8 +59,14 @@ body,html{
 
 }
 @media all and (max-width:1024px){
+
+    body,html{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+
     .about-container{
-        width: 100%;
         background-image: url("../images/stolen.jpg");
         background-size: cover;
         background-position: center;
@@ -77,13 +83,18 @@ body,html{
     }
     .about--section{
         justify-content: baseline;
-        width: 600px;
+        width: auto;
         padding: 2%;
     }
 }
 @media all and (max-width:760px){
+
+    body,html{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
     .about-container{
-        width: 100%;
         background-image: url("../images/stolen.jpg");
         background-size: cover;
         background-position: center;
@@ -91,7 +102,6 @@ body,html{
     }
     .about-message{
         align-items: center;
-        width: 100%;
     }
     .about--section{
         width: 650px;
@@ -101,7 +111,6 @@ body,html{
 .executive{
     padding: 0%;
     margin: 0px;
-    width: 100%;
 }
 .executive-container{
     margin: 0;
@@ -141,6 +150,11 @@ body,html{
     padding:4% 0%;
 }
 @media  all and (max-width:1024px) {
+    body,html{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
     .executive--sec{
         display: grid;
     }
@@ -154,6 +168,11 @@ body,html{
     }
 }
 @media  all and (max-width:1760px) {
+    body,html{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
     .executive--sec{
         display: grid;
     }
@@ -168,7 +187,6 @@ body,html{
 }
 /* executive section two */
 .exe-corner{
-    width: 100%;
     padding: 0%;
 }
 .exe-header{
@@ -209,13 +227,16 @@ body,html{
     font-size: 16px;
 }
 @media  (max-width:1024px){
+    body,html{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
     .exe-corner{
-        width:100%;
         height: 100%;
         justify-content: center;
     }
     .exe-area{
-        width: 100%;
         height: 100%;
     }
     .co-founder{
@@ -224,8 +245,10 @@ body,html{
     }
 }
 @media all and (max-width:760px){
-    .exe-area{
-        width: 100%;
+    body,html{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
     }
     .co-founder{
         display: flex;
